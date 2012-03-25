@@ -15,7 +15,8 @@ $type=(isset($_GET['type'])? htmlentities($_GET['type']):'overall');
 $color=(isset($_GET['color'])? htmlentities($_GET['color']):'white');
 $layout=(isset($_GET['layout'])? htmlentities($_GET['layout']):'OneCol');
 
-$image = Config::LINK_BANNER
+$folder = str_replace('link.php', '', $_SERVER['PHP_SELF']);
+$image = 'http://' . $_SERVER['HTTP_HOST'] . $folder . 'banner.php'
 	."?user=".$user."&nb=".$nb."&type=".$type.
 	"&color=".$color."&layout=".$layout;
 ?>

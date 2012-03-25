@@ -27,12 +27,8 @@ class Config {
 	
 	//Delay for browser cache (in sec.)
 	const CACHE_DELAY = 432000; //(3600 * 24 * 5)
-	
-	//Banner Location (use by the link.php page)
-	const LINK_BANNER = "http://localhost/bandlogos/banner.php";
 }
 
 //Config::$dbInstance = MySQLIDB::getInstance();
 Config::$dbInstance = MySQLNative::getInstance();
 
-?>
