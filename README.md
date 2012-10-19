@@ -1,5 +1,5 @@
 ## Installation
-1. Download the [source files](https://github.com/h3xstream/bandlogos)
+1. Download the [source files](https://github.com/dinduks/bandlogos/downloads)
 2. Download the [latest logos](http://bandlogos.dinduks.com/bandlogos.zip)
 3. You need a installation of Apache/PHP5/MySQL/gd2
 4. Change the settings in */classes/bd/DBConfig.class.php* and */classes/Config.class.php*
